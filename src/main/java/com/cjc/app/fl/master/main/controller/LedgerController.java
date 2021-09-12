@@ -26,6 +26,7 @@ public class LedgerController
 	@GetMapping("/getAllLedger")
 	public List<Ledger> getAllLedger()
 	{
+		
 		return hs.getAllLedger();
 	}
 	
